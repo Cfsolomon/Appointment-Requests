@@ -1,6 +1,6 @@
 # Appointment-Requests — Google Apps Script
 
-This repository contains a Google Apps Script that converts Google Form submissions into Google Docs, saves a PDF copy to Drive, sends an internal notification (with PDF) to the clinic, and sends a personalized acknowledgement email to the submitter with clinic contact info and helpful links.
+This repository contains a Google Apps Script that captures Google Form appointments, generates a Google Doc summary for each submission, exports and stores a PDF copy in Google Drive, sends an internal notification (with PDF) to clinic staff, and sends a personalized acknowledgement email to the submitter with useful patient resources. The project is easy to configure (FORM_ID, PDF_FOLDER_ID, EMAIL_ON_CREATE) and intended for small-to-medium clinical intake workflows.
 
 ## Files
 - apps-script/Code.gs — main Apps Script file to paste into your spreadsheet's Apps Script project.
